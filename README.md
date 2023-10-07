@@ -17,18 +17,22 @@ For this dataset, there are 1,000 rows and 16 columns
 
 ### Data Dictionary:
 
-* Item_Identifier - Unique product ID
-* Item_Weight - Weight of product
-* Item_Fat_Content - Whether the product is low fat or regular
-* Item_Visibility - The percentage of total display area of all products in a store allocated to the particular product
-* Item_Type - The category to which the product belongs
-* Item_MRP - Maximum Retail Price (list price) of the product
-* Outlet_Identifier - Unique store ID
-* Outlet_Establishment_Year - The year in which store was established
-* Outlet_Size - The size of the store in terms of ground area covered
-* Outlet_Location_Type - The type of area in which the store is located
-* Outlet_Type - Whether the outlet is a grocery store or some sort of supermarket
-* Item_Outlet_Sales - Sales of the product in the particular store. This is the target variable to be predicted.
+* Order ID - Indiviaul order ID
+* Oder Date - When the order was placed
+* Customer ID - Individual customer ID
+* Product ID - Individual product ID
+* Quantity - Amount of a product
+* Customer Name - Who ordered the product
+* Email - CUstomer's email (not required)
+* Country - Country of Order
+* Coffee Type - Type of coffee bean
+* Roast Type - Type of coffee roast
+* Size - Size of product
+* Unit Price - Cost of product
+* Sales - Total of Order
+* Coffee Type Name - Full name of coffee type
+* Roast Type Name - Full name of roast type
+* Loyalty Card - Does the customer have a loyalty card
 
 ## To prepare this data, the data was cleaned of extra rows and unneeded columns.The following processes were performed:
 
